@@ -55,7 +55,7 @@ public class Point
         _y += t;
 
     }
-
+    //Linearite
     public bool Linearite(double x1, double x2, double x3, double y1, double y2, double y3)
     {
         bool res = true;
@@ -70,6 +70,9 @@ public class Point
             {
                 res = false;
             }
+        }else
+        {
+            return "error";
         }
         return res;
     }
